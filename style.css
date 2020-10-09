@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+  background-color: #00CD00;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+section {
+  margin: 15px;
+  background-color: #C1FFC1;
+}
+
+section h2 {
+  margin: 16px;
+}
+
+section h3 {
+  margin-top: 32px;
+}
+footer {
+  background-color: #1E90FF;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+section div h2{
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+h1:hover, h2:hover{
+  background-color: black;
+  color: #00CD00;
+}
+.pointer {cursor: pointer;}
+#noticia1 {
+  margin-left: 64px;
+}
+#noticia2{
+  margin-left: 64px;
+}
+#noticia3{
+  margin-left: 64px;
+}
+#noticia4{
+  margin-left: 64px;
+}
+#Nãosei{
+  text-align: center;
+}
+#Noot1{
+  color: blue;
+  letter-spacing: 1px;
+}
+#Noot2{
+  color: blue;
+  letter-spacing: 1px;
+}
+#Noot3{
+  color: blue;
+  letter-spacing: 1px;
+}
+#Noot4{
+  color: blue;
+  letter-spacing: 1px;
+}
+#Titulo {
+
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
